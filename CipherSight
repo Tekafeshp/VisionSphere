@@ -1,0 +1,6 @@
+import Augmentor
+
+p = Augmentor.Pipeline("path_to_images_folder")
+p.rotate(probability=0.7, max_left_rotation=10, max_right_rotation=10)
+p.zoom_random(probability=0.5, percentage_area=0.8)
+p.sample(100)
