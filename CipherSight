@@ -1,4 +1,4 @@
-import Augmentor #1
+import Augmentor #
 
 p = Augmentor.Pipeline("path_to_images_folder")
 p.rotate(probability=0.7, max_left_rotation=10, max_right_rotation=10)
